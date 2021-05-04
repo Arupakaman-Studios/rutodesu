@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arr_languages">
+        <item name="english">@string/english</item>
+        <item name="japanese">@string/japanese</item>
+    </string-array>
+
+    <string-array name="arr_languages_codes">
+        <item name="english">@string/english_code</item>
+        <item name="japanese">@string/japanese_code</item>
+    </string-array>
+
+    <string-array name="arr_home_drawer">
+        <item name="drawer_home">@string/title_home</item>
+        <item name="drawer_settings">@string/title_settings</item>
+        <item name="drawer_about">@string/title_about</item>
+        <item name="drawer_contact">@string/title_contact</item>
+        <item name="drawer_share">@string/title_share</item>
+        <item name="drawer_rate">@string/title_rate</item>
+    </string-array>
+
+</resources>

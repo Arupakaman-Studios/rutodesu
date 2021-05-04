@@ -1,0 +1,113 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name" translatable="false">rutodesu</string>
+    <string name="title_rutodesu_pro" translatable="false">rutodesu pro</string>
+
+    <string name="default_notification_channel_id" translatable="false">Rutodesu_Notification_Channel_ID</string>
+    <string name="key_ad_mob_app_id" translatable="false">ca-app-pub-7574266774319612~3495644221</string>
+    <string name="key_ad_mob_banner_id" translatable="false">ca-app-pub-7574266774319612/7969590754</string>
+    <string name="key_ad_mob_interstitial_id" translatable="false">ca-app-pub-7574266774319612/9793792409</string>
+    <string name="email_publisher" translatable="false">arupakamanstudios@gmail.com</string>
+    <string name="pro_package_name" translatable="false">com.arupakaman.rutodesu.pro</string>
+
+    <string name="str_empty" translatable="false" />
+    <string name="str_hiphen" translatable="false">-</string>
+
+    <string name="english" translatable="false">English</string>
+    <string name="japanese" translatable="false">日本語</string>
+
+    <string name="english_code" translatable="false">en</string>
+    <string name="japanese_code" translatable="false">ja</string>
+
+
+    <!-- Titles -->
+
+    <string name="title_result">result</string>
+    <string name="title_information">information</string>
+    <string name="title_rooted">rooted</string>
+    <string name="title_not_rooted">not rooted</string>
+    <string name="title_home">home</string>
+    <string name="title_settings">settings</string>
+    <string name="title_about">about</string>
+    <string name="title_device">device</string>
+    <string name="title_android_version" translatable="false">android</string>
+    <string name="title_kernel_version" translatable="false">kernel version</string>
+    <string name="title_kernel" translatable="false">kernel</string>
+    <string name="title_sdk_version" translatable="false">SDK</string>
+    <string name="title_bootloader" translatable="false">bootloader</string>
+    <string name="title_fingerprint" translatable="false">fingerprint</string>
+    <string name="title_radio_version" translatable="false">radio version</string>
+    <string name="title_runtime" translatable="false">runtime</string>
+    <string name="title_developer_mode" translatable="false">developer mode</string>
+    <string name="title_xposed" translatable="false">xposed</string>
+    <string name="title_rei">rei</string>
+    <string name="title_personalization">personalization</string>
+    <string name="title_theme">theme</string>
+    <string name="title_light">light</string>
+    <string name="title_dark">dark</string>
+    <string name="title_system">system</string>
+    <string name="title_zebrine">zebrine</string>
+    <string name="title_change_language">change language</string>
+    <string name="title_busybox" translatable="false">busybox</string>
+    <string name="title_su_path" translatable="false">su path</string>
+    <string name="title_busybox_path" translatable="false">busybox path</string>
+    <string name="title_magisk" translatable="false">magisk</string>
+    <string name="title_magisk_path" translatable="false">magisk path</string>
+    <string name="title_unchecked">unchecked</string>
+    <string name="title_test_keys" translatable="false">test keys</string>
+    <string name="title_read_write_path" translatable="false">r/w path</string>
+    <string name="title_dangerous_props" translatable="false">dangerous properties</string>
+    <string name="title_root_management_apps" translatable="false">root management apps</string>
+    <string name="title_root_cloaking_apps" translatable="false">root cloaking apps</string>
+    <string name="title_potentially_unwanted_apps" translatable="false">potentially unwanted apps</string>
+    <string name="title_get_more_info">more info</string>
+    <string name="title_share_via">share via :</string>
+    <string name="title_send_via">send via :</string>
+    <string name="title_contact">contact us</string>
+    <string name="title_share">share</string>
+    <string name="title_rate">rate</string>
+    <string name="title_select_language_colon">select language :</string>
+    <string name="title_root_god">root == god</string>
+    <string name="title_root_given">root given</string>
+
+
+    <!-- Actions -->
+
+    <string name="action_check">check</string>
+    <string name="action_select">select</string>
+    <string name="action_cancel" tools:ignore="ButtonCase">cancel</string>
+    <string name="action_check_again">check again</string>
+    <string name="action_yes">yes</string>
+    <string name="action_no">no</string>
+
+
+    <!-- Messages -->
+
+    <string name="msg_installed">installed</string>
+    <string name="msg_not_installed">not installed</string>
+    <string name="msg_on">on</string>
+    <string name="msg_off">off</string>
+    <string name="msg_unknown">unknown</string>
+    <string name="msg_app_dedicated">this app is dedicated to rei</string>
+    <string name="msg_found">found</string>
+    <string name="msg_not_found">not found</string>
+    <string name="msg_enter_your_message">enter your message here…</string>
+    <string name="msg_share_rutodesu">Hey, \nCheckout this app that lets you confirm if your device is rotted or not with many other information. Get it from : \n</string>
+    <string name="msg_about_rutodesu">rutodesu is developed by <a href="https://www.linkedin.com/in/nareshnathnnk/">Naresh Nath</a> of Arupakaman Studios. Arupakaman Studios is a group of independent developers working on various applications and services. \nYou can send us your feedback and app suggestions via email.</string>
+    <string name="msg_about_root">No root detection app can ever been 100% effective as when the user is root they are basically god on the device.</string>
+
+
+    <!-- Description -->
+
+    <string name="desc_current_language_colon">current language : </string>
+
+
+    <!-- Content Description -->
+
+    <string name="cont_desc_ruto_art_home">about ruto art image</string>
+    <string name="cont_desc_drawer_icon">drawer icon</string>
+    <string name="cont_desc_ruto" translatable="false">root</string>
+    <string name="msg_home_back_press_again_to_exit">press back again to exit</string>
+
+
+</resources>

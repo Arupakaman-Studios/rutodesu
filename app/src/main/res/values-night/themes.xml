@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rutodesu" parent="Theme.Rutodesu.BaseTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorDark</item>
+        <item name="colorPrimaryVariant">@color/colorDarkX</item>
+        <item name="colorOnPrimary">@color/colorDark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+
+        <!-- Color Attrs -->
+        <item name="colorBlockBackground">@color/colorDarkX</item>
+        <item name="colorTextDark">@color/colorWhite</item>
+        <item name="colorTextMain">@color/colorLightX</item>
+        <item name="colorTextBtn">@color/colorWhite</item>
+        <item name="colorIconTint">@color/colorLightX</item>
+        <item name="colorButtonTint">@color/colorDarkX</item>
+    </style>
+</resources>

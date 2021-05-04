@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorTransparent">#00000000</color>
+
+    <color name="colorReiRed">#AE0A18</color>
+    <color name="colorGreen">#037f51</color>
+
+    <color name="colorDark">#1A1A1A</color>
+    <color name="colorDarkX">#333333</color>
+    <color name="colorDarkBg">#333333</color>
+
+    <color name="colorLight">@color/colorWhite</color>
+    <color name="colorLightX">#DCE3E3</color>
+    <color name="colorLightBg">#F9F9F9</color>
+
+    <color name="colorRei">#A1B4F4</color>
+    <color name="colorReiBg">#F1F4FD</color>
+
+    <color name="colorLightVar">#DFDBE3</color>
+
+    <color name="colorTextBlue">#00213D</color>
+    <color name="colorTextLight">#1B1B22</color>
+
+</resources>

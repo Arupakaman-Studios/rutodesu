@@ -1,0 +1,90 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Rutodesu.BaseTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?colorPrimary</item>
+        <item name="android:navigationBarColor">?colorPrimary</item>
+
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/colorReiRed</item>
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">?colorPrimaryVariant</item>
+
+        <item name="colorSurface">?colorPrimaryVariant</item>
+
+        <item name="android:windowBackground">?colorPrimary</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:fontFamily">@font/font_noto_mono</item>
+        <item name="fontFamily">@font/font_noto_mono</item>
+
+        <item name="materialAlertDialogTheme">@style/Theme.Rutodesu.AlertDialogMaterialTheme</item>
+    </style>
+
+    <style name="Theme.Rutodesu" parent="Theme.Rutodesu.BaseTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorPrimaryVariant">@color/colorLightX</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Customize your theme here. -->
+
+        <!-- Color Attrs -->
+        <item name="colorBlockBackground">@color/colorLightBg</item>
+        <item name="colorTextDark">@color/colorBlack</item>
+        <item name="colorTextMain">@color/colorTextLight</item>
+        <item name="colorTextBtn">@color/colorWhite</item>
+        <item name="colorIconTint">@color/colorBlack</item>
+        <item name="colorButtonTint">@color/colorBlack</item>
+    </style>
+
+    <style name="Theme.Rutodesu.Purple" parent="Theme.Rutodesu.BaseTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorLightVar</item>
+        <item name="colorPrimaryVariant">@color/colorLightX</item>
+        <item name="colorOnPrimary">@color/colorLightVar</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Customize your theme here. -->
+
+        <!-- Color Attrs -->
+        <item name="colorBlockBackground">@color/colorLightX</item>
+        <item name="colorTextDark">@color/colorBlack</item>
+        <item name="colorTextMain">@color/colorTextLight</item>
+        <item name="colorTextBtn">@color/colorBlack</item>
+        <item name="colorIconTint">@color/colorBlack</item>
+        <item name="colorButtonTint">@color/colorLightX</item>
+    </style>
+
+    <style name="Theme.Rutodesu.Rei" parent="Theme.Rutodesu.BaseTheme">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorLight</item>
+        <item name="colorPrimaryVariant">@color/colorRei</item>
+        <item name="colorOnPrimary">@color/colorLight</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+
+        <!-- Customize your theme here. -->
+
+        <!-- Color Attrs -->
+        <item name="colorBlockBackground">@color/colorReiBg</item>
+        <item name="colorTextDark">@color/colorBlack</item>
+        <item name="colorTextMain">@color/colorTextLight</item>
+        <item name="colorTextBtn">@color/colorWhite</item>
+        <item name="colorIconTint">@color/colorBlack</item>
+        <item name="colorButtonTint">@color/colorRei</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:2:11-42
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:1-6:12
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:1:11-69
+application
+ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml:4:5-20
+uses-sdk
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		ADDED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml
+		INJECTED from /mnt/windows/My Projects/Personal/Rutodesu/rootbeerlib/src/main/AndroidManifest.xml

@@ -1,0 +1,12 @@
+com/scottyab/rootbeer/util/Utils.java
+ com.scottyab.rootbeer.util.Utils
+com/scottyab/rootbeer/RootBeer.java
+ com.scottyab.rootbeer.RootBeer
+com/scottyab/rootbeer/Const.java
+ com.scottyab.rootbeer.Const
+com/scottyab/rootbeer/util/QLog.java
+ com.scottyab.rootbeer.util.QLog
+com/scottyab/rootbeer/BuildConfig.java
+ com.scottyab.rootbeer.BuildConfig
+com/scottyab/rootbeer/RootBeerNative.java
+ com.scottyab.rootbeer.RootBeerNative

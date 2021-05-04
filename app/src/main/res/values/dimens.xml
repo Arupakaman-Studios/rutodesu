@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_screen_padding">10dp</dimen>
+
+    <dimen name="text_size_button">20sp</dimen>
+    <dimen name="text_size_h4">12sp</dimen>
+    <dimen name="text_size_h3">14sp</dimen>
+    <dimen name="text_size_h2">16sp</dimen>
+    <dimen name="text_size_h1">18sp</dimen>
+    <dimen name="drawer_width_home">50dp</dimen>
+    <dimen name="btn_stroke_width">1dp</dimen>
+</resources>

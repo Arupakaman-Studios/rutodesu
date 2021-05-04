@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/actRootView"
+    app:layoutDescription="@xml/activity_home_scene"
+    tools:context=".uiModules.home.ActivityHome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/clHomeContent"
+        android:paddingEnd="@dimen/drawer_width_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <include
+            android:id="@+id/includeFragmentHome"
+            layout="@layout/fragment_home"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/flContainerHome"
+            />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressTest"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="?colorPrimaryVariant"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/drawer_width_home"
+        android:layout_height="0dp"
+        android:id="@+id/cardDrawerHome"
+        android:background="@drawable/bg_drawer_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="10dp"
+            style="@style/Theme.Rutodesu.ClickableBorderLess"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_circles_menu"
+            android:id="@+id/ivDrawerDotsLhs"
+            app:tint="?colorIconTint"
+            android:contentDescription="@string/cont_desc_drawer_icon"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/rvHomeDrawer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivDrawerDotsLhs"
+            android:paddingVertical="20dp"
+            android:clipToPadding="false"
+            android:layout_marginHorizontal="25dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="10dp"
+        app:tint="?colorIconTint"
+        style="@style/Theme.Rutodesu.ClickableBorderLess"
+        app:layout_constraintTop_toTopOf="@id/cardDrawerHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_circles_menu"
+        android:id="@+id/ivDrawerDotsRhs"
+        android:contentDescription="@string/cont_desc_drawer_icon"
+        />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        app:tint="?colorIconTint"
+        android:layout_marginEnd="2dp"
+        app:layout_constraintTop_toTopOf="@id/cardDrawerHome"
+        app:layout_constraintBottom_toBottomOf="@id/cardDrawerHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_ruto_text_jp"
+        android:contentDescription="@string/cont_desc_ruto"
+        android:id="@+id/ivDrawerTitle"
+        />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

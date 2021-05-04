@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="colorBlockBackground" format="color|reference"/>
+    <attr name="colorTextDark" format="color|reference"/>
+    <attr name="colorTextMain" format="color|reference"/>
+    <attr name="colorTextBtn" format="color|reference"/>
+    <attr name="colorIconTint" format="color|reference"/>
+    <attr name="colorButtonTint" format="color|reference"/>
+
+</resources>

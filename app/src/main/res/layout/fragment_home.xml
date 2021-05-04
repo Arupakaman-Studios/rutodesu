@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/default_screen_padding"
+    app:layoutDescription="@xml/fragment_home_scene">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivRutoArtHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Art.Corner"
+        android:contentDescription="@string/cont_desc_ruto_art_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/img_ruto_art" />
+
+    <include
+        android:id="@+id/includeAd"
+        layout="@layout/ad_mob_banner_ad_layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/ivRutoArtHome"
+        app:layout_constraintEnd_toEndOf="@id/ivRutoArtHome"
+        app:layout_constraintBottom_toBottomOf="@id/ivRutoArtHome"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvResultTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_result"
+        android:textSize="@dimen/text_size_h1"
+        android:textColor="?colorTextMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivRutoArtHome"
+        android:layout_marginTop="10dp"
+        />
+
+    <View
+        android:id="@+id/viewResultDivider"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="?colorTextMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvResultTitle" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvResultValue"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/title_not_rooted"
+        android:textColor="?colorTextMain"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewResultDivider" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvInfoTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/title_information"
+        android:textColor="?colorTextMain"
+        android:textSize="@dimen/text_size_h1"
+        android:gravity="start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tvMoreInfo"
+        app:layout_constraintTop_toBottomOf="@id/tvResultValue" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMoreInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/title_get_more_info"
+        android:textColor="?colorTextMain"
+        android:textSize="@dimen/text_size_h3"
+        android:gravity="end"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tvInfoTitle"
+        app:layout_constraintTop_toTopOf="@id/tvInfoTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvInfoTitle"
+        />
+
+    <View
+        android:id="@+id/viewInfoDivider"
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="3dp"
+        android:background="?colorTextMain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvInfoTitle" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/rvTestInfo"
+        android:background="@drawable/bg_home_test_info"
+        android:clipToPadding="false"
+        android:padding="2dp"
+        tools:itemCount="4"
+        tools:listitem="@layout/item_test_info_layout"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/btnCheckHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewInfoDivider"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCheckHome"
+        style="@style/Theme.Rutodesu.MaterialButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
